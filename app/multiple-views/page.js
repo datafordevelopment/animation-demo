@@ -38,7 +38,7 @@ function onAnimate(args) {
     };
     definitions.push(a4);
     var animationSet = new animationModule.Animation(definitions);
-    animationSet.play().finished.then(function () {
+    animationSet.play().then(function () {
         console.log("Animation finished");
     })
         .catch(function (e) {
@@ -57,3 +57,4 @@ function onReset(args) {
     view4.translateY = 0;
 }
 exports.onReset = onReset;
+//# sourceMappingURL=page.js.map

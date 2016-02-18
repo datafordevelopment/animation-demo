@@ -6,7 +6,7 @@ function pageLoaded(args) {
 exports.pageLoaded = pageLoaded;
 function onAnimate(args) {
     view.animate({
-        rotate: 180,
+        rotate: 360,
         duration: 3000
     });
 }
@@ -15,3 +15,4 @@ function onReset(args) {
     view.rotate = 0;
 }
 exports.onReset = onReset;
+//# sourceMappingURL=page.js.map
