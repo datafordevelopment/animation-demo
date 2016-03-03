@@ -1,4 +1,4 @@
-# NativeScript animation demo application
+# NativeScript animation demo using CSS with keyframes
 Open source cross-platform animation demo app built with NativeScript.
 
 Use this application to find-out how to implement common animation scenarios with NativeScript.
